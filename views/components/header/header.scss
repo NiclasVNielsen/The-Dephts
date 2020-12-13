@@ -1,0 +1,28 @@
+header{
+    position: absolute;
+    width: 100%;
+    figure{
+        float: left;
+        margin: 1em;
+    }
+    nav{
+        float: right;
+        a{
+            padding: .9em 2.4em;
+            width: 100%;
+            height: 100%;
+            display: block;
+            text-decoration: none;
+            border-radius: 0 0 0 1.4em;
+            border-bottom: solid 2px var(--seco);
+            border-left: solid 2px var(--seco);
+            transition: var(--time);
+            &:hover{
+                background: var(--thir);
+            }
+            &:active{
+                background: var(--fift);
+            }
+        }
+    }
+}
