@@ -11,8 +11,8 @@ const sections = [
     [document.querySelector('#front-page h1'), document.querySelector('#front-page p')],
     [document.querySelector('#info-page-1 h3'), document.querySelector('#info-page-1 p')],
     [document.querySelector('#image-gallery h4'), document.querySelector('#image-gallery p')],
-    [document.querySelector('#info-page-2 h4'), document.querySelector('#info-page-2 p')],
-    [document.querySelector('#info-page-3 h4'), document.querySelector('#info-page-3 p'), document.querySelector('#info-page-3 p:last-of-type')],
+    [document.querySelector('#info-page-2 h4'), document.querySelector('#info-page-2 p'), document.querySelector('#info-page-2 figure')],
+    [document.querySelector('#info-page-3 h4'), document.querySelector('#info-page-3 p'), document.querySelector('#info-page-3 p:last-of-type'), document.querySelector('#info-page-3 figure')],
     [document.querySelector('#info-page-4 h4'), document.querySelector('#info-page-4 p')]
 ];
 
