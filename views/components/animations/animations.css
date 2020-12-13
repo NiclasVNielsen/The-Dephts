@@ -6,12 +6,8 @@
 
 @-webkit-keyframes fadein {
   0% {
-    opacity: 0;
-    top: 10px;
-  }
-  10% {
-    opacity: 0;
-    top: 10px;
+    opacity: 0.2;
+    top: 3px;
   }
   100% {
     opacity: 1;
@@ -21,12 +17,8 @@
 
 @keyframes fadein {
   0% {
-    opacity: 0;
-    top: 10px;
-  }
-  10% {
-    opacity: 0;
-    top: 10px;
+    opacity: 0.2;
+    top: 3px;
   }
   100% {
     opacity: 1;
