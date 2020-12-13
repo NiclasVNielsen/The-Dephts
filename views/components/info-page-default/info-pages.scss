@@ -1,0 +1,31 @@
+#info-page-2, #info-page-3, #info-page-4{
+    background: var(--thir);
+    display: flex;
+    align-items: center;
+    > .wrapper{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        > figure, > div{
+            width: 50%;
+        }
+        > figure{
+            height: 40vh;
+            overflow: hidden;
+            border-radius: 10px;
+            position: relative;
+            & > img{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+        > div{
+            color: var(--seco);
+            padding: 0 100px;
+        }
+    }
+}

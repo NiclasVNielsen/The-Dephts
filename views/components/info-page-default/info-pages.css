@@ -1,0 +1,49 @@
+#info-page-2, #info-page-3, #info-page-4 {
+  background: var(--thir);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#info-page-2 > .wrapper, #info-page-3 > .wrapper, #info-page-4 > .wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#info-page-2 > .wrapper > figure, #info-page-2 > .wrapper > div, #info-page-3 > .wrapper > figure, #info-page-3 > .wrapper > div, #info-page-4 > .wrapper > figure, #info-page-4 > .wrapper > div {
+  width: 50%;
+}
+
+#info-page-2 > .wrapper > figure, #info-page-3 > .wrapper > figure, #info-page-4 > .wrapper > figure {
+  height: 40vh;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+
+#info-page-2 > .wrapper > figure > img, #info-page-3 > .wrapper > figure > img, #info-page-4 > .wrapper > figure > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#info-page-2 > .wrapper > div, #info-page-3 > .wrapper > div, #info-page-4 > .wrapper > div {
+  color: var(--seco);
+  padding: 0 100px;
+}
+/*# sourceMappingURL=info-pages.css.map */
