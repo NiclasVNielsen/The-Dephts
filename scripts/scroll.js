@@ -7,23 +7,6 @@ const html = document.querySelector('html');
 const imagegalleryfade = [document.querySelector('#image-gallery > .fade'), document.querySelector('#info-page-1')];
 let boble = document.querySelectorAll('.bobble');
 
-function fadeChanger (element, option){
-
-    /* classes.forEach(classe => {
-        element.classList.remove(classe);
-    }); */
-
-    if(option == 3){
-        element.classList.add('fadeindelayed');
-    }else if(option == 2){
-        element.classList.add('fadeoutdelayed');
-    }else if(option == 1){
-        element.classList.add('fadein');
-    }else if(option == 0){
-        element.classList.add('fadeout');
-    }
-}
-
 const sections = [
     [document.querySelector('#front-page h1'), document.querySelector('#front-page p')],
     [document.querySelector('#info-page-1 h3'), document.querySelector('#info-page-1 p')],
@@ -59,52 +42,40 @@ function erase(selected) {
     });
 }
 
-let test = 0;
+let reactivateBlock = 0;
 
 /* Scroll Style Switch --------------------------------------------- */
 document.addEventListener('scroll', function () {
-    /* 
-        3 fade in delayed
-        2 fade out delayed
-        1 fade in
-        0 fade out    
-    */
 
     if(html.scrollTop < height){
-        if(test != 1){
-            test = 1;
+        if(reactivateBlock != 1){
+            reactivateBlock = 1;
             erase(0);
-            //console.log(test);
         }
     }else if(html.scrollTop >= height && html.scrollTop < height * 2){
-        if(test != 2){
-            test = 2;
+        if(reactivateBlock != 2){
+            reactivateBlock = 2;
             erase(1);
-            //console.log(test);
         }
     }else if(html.scrollTop >= height * 2 && html.scrollTop < height * 3){
-        if(test != 3){
-            test = 3;
+        if(reactivateBlock != 3){
+            reactivateBlock = 3;
             erase(2);
-            //console.log(test);
         }
     }else if(html.scrollTop >= height * 3 && html.scrollTop < height * 4){
-        if(test != 4){
-            test = 4;
+        if(reactivateBlock != 4){
+            reactivateBlock = 4;
             erase(3);
-            //console.log(test);
         }
     }else if(html.scrollTop >= height * 4 && html.scrollTop < height * 5){
-        if(test != 5){
-            test = 5;
+        if(reactivateBlock != 5){
+            reactivateBlock = 5;
             erase(4);
-            //console.log(test);
         }
     }else if(html.scrollTop >= height * 5 && html.scrollTop < height * 6){
-        if(test != 6){
-            test = 6;
+        if(reactivateBlock != 6){
+            reactivateBlock = 6;
             erase(5);
-            //console.log(test);
         }
     }
 

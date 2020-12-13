@@ -1,5 +1,5 @@
 #info-page-2, #info-page-3, #info-page-4{
-    background: var(--thir);
+    background: var(--fift);
     display: flex;
     align-items: center;
     > .wrapper{
@@ -28,4 +28,11 @@
             padding: 0 100px;
         }
     }
+}
+
+#info-page-2{
+    background: linear-gradient(var(--thir) 80%, var(--four));
+}
+#info-page-3{
+    background: linear-gradient(var(--four) 80%, var(--fift));
 }

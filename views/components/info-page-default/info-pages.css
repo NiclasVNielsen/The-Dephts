@@ -1,5 +1,5 @@
 #info-page-2, #info-page-3, #info-page-4 {
-  background: var(--thir);
+  background: var(--fift);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,5 +45,15 @@
 #info-page-2 > .wrapper > div, #info-page-3 > .wrapper > div, #info-page-4 > .wrapper > div {
   color: var(--seco);
   padding: 0 100px;
+}
+
+#info-page-2 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, var(--thir)), to(var(--four)));
+  background: linear-gradient(var(--thir) 80%, var(--four));
+}
+
+#info-page-3 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, var(--four)), to(var(--fift)));
+  background: linear-gradient(var(--four) 80%, var(--fift));
 }
 /*# sourceMappingURL=info-pages.css.map */

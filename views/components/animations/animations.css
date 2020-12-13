@@ -1,13 +1,13 @@
 .fadein {
-  -webkit-animation: var(--time) fadein forwards;
-          animation: var(--time) fadein forwards;
+  -webkit-animation: var(--time) fadein ease-out forwards;
+          animation: var(--time) fadein ease-out forwards;
   position: relative;
 }
 
 @-webkit-keyframes fadein {
   0% {
-    opacity: 0.2;
-    top: 3px;
+    opacity: 0;
+    top: -12px;
   }
   100% {
     opacity: 1;
@@ -17,8 +17,8 @@
 
 @keyframes fadein {
   0% {
-    opacity: 0.2;
-    top: 3px;
+    opacity: 0;
+    top: -12px;
   }
   100% {
     opacity: 1;
