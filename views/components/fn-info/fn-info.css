@@ -1,0 +1,13 @@
+#fn-info {
+  max-width: 932px;
+  padding: 1em;
+  padding-top: 20vh;
+  margin: 0 auto;
+  margin-bottom: 20vh;
+}
+
+#fn-info section {
+  height: auto;
+  min-height: 100vh;
+}
+/*# sourceMappingURL=fn-info.css.map */

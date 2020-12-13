@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,SAAS,EAAE,KAAK;EAChB,OAAO,EAAE,GAAG;EACZ,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,MAAM;EACd,aAAa,EAAE,IAAI;CAKtB;;AAVD,AAMI,QANI,CAMJ,OAAO,CAAA;EACH,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "fn-info.scss"
+    ],
+    "names": [],
+    "file": "fn-info.css"
+}
