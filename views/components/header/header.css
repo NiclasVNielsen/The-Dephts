@@ -6,6 +6,26 @@ header {
 header figure {
   float: left;
   margin: 1em;
+  background: var(--thir);
+  height: 8vh;
+  width: 8vh;
+  padding: 1.2vh;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: var(--time);
+  transition: var(--time);
+}
+
+header figure:hover {
+  background: var(--seco);
+}
+
+header figure:active {
+  background: var(--four);
+}
+
+header figure img {
+  height: 5.6vh;
 }
 
 header nav {
