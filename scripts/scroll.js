@@ -1,7 +1,3 @@
-/* Selections ------------------------------------------------------ */
-const html = document.querySelector('html');
-
-
 let height = document.documentElement.clientHeight;
 window.addEventListener('resize', function () {
     height = document.documentElement.clientHeight;
@@ -25,9 +21,8 @@ function fadeChanger (element, option){
     }
 }
 
-
+const html = document.querySelector('html');
 const imagegalleryfade = [document.querySelector('#image-gallery > .fade'), document.querySelector('#info-page-1')];
-
 let boble = document.querySelectorAll('.bobble');
 
 /* Scroll Style Switch --------------------------------------------- */
@@ -38,6 +33,8 @@ document.addEventListener('scroll', function () {
         1 fade in
         0 fade out    
     */
+
+
 
 
     /* Bobler ---------------------------------------------------------- */

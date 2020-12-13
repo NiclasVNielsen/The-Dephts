@@ -1,0 +1,59 @@
+.fadein{
+    animation: var(--time) fadein forwards;
+    position: relative;
+}
+@keyframes fadein{
+    0%{
+        opacity: 0;
+        top: 10px;
+    }10%{
+        opacity: 0;
+        top: 10px;
+    }100%{
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+.fadeout{
+    animation: var(--time) fadeout forwards;
+}
+@keyframes fadeout{
+    0%{
+        opacity: 1;
+    }50%{
+        opacity: 1;
+    }100%{
+        opacity: 0;
+    }
+}
+
+.fadeindelayed{
+    animation: var(--delay) fadeindelayed forwards;
+    position: relative;
+}
+@keyframes fadeindelayed{
+    0%{
+        opacity: 0;
+        top: 10px;
+    }40%{
+        opacity: 0;
+        top: 10px;
+    }100%{
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+.fadeoutdelayed{
+    animation: var(--delay) fadeoutdelayed forwards;
+}
+@keyframes fadeoutdelayed{
+    0%{
+        opacity: 1;
+    }80%{
+        opacity: 1;
+    }100%{
+        opacity: 0;
+    }
+}
