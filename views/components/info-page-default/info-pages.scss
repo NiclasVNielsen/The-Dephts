@@ -32,6 +32,10 @@
 
 #info-page-2{
     background: linear-gradient(var(--thir) 80%, var(--four));
+    h4, p{
+        color: var(--whit);
+        text-shadow: 0px 0px .6em var(--seco);
+    }
 }
 #info-page-3{
     background: linear-gradient(var(--four) 80%, var(--fift));
