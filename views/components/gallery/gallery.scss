@@ -1,6 +1,6 @@
 #image-gallery{
     position: relative;
-    /* > .fade{
+    > .fade{
         position: absolute;
         background: var(--thir);
         width: 100%;
@@ -8,7 +8,7 @@
         display: block;
         pointer-events: none;
         z-index: 10;
-    } */
+    }
 
     display: flex;
     > .gallery-items{
