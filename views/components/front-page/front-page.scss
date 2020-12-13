@@ -1,0 +1,26 @@
+#front-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    > h1{
+        text-align: center;
+    }
+    > p{
+        max-width: 26em;
+        margin: 0 auto;
+        padding-top: 10px;
+        transform: translateY(-5vh);
+        background: linear-gradient(transparent, var(--whit) 7px);
+        z-index: 3;
+    }
+} .wave{
+    position: absolute;
+    transform: translateY(-98%);
+    width: 100%;
+    z-index: 3;
+    > img{
+        height: 13vh;
+        width: 100%;
+        display: block;
+    }
+}
