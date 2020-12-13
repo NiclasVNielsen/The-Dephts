@@ -27,13 +27,17 @@
 
 .wave {
   position: absolute;
-  -webkit-transform: translateY(-98%);
-          transform: translateY(-98%);
+  -webkit-transform: translateY(-95%);
+          transform: translateY(-95%);
+  height: 10vh;
   width: 100%;
   z-index: 3;
 }
 
 .wave > img {
+  display: block;
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
   height: 13vh;
   width: 100%;
   display: block;

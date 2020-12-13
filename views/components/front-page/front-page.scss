@@ -15,10 +15,13 @@
     }
 } .wave{
     position: absolute;
-    transform: translateY(-98%);
+    transform: translateY(-95%);
+    height: 10vh;
     width: 100%;
     z-index: 3;
     > img{
+        display: block;
+        transform: translateY(20%);
         height: 13vh;
         width: 100%;
         display: block;
