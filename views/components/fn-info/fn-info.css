@@ -4,10 +4,12 @@
   padding-top: 20vh;
   margin: 0 auto;
   margin-bottom: 20vh;
-}
-
-#fn-info section {
   height: auto;
   min-height: 100vh;
+}
+
+#fn-info h1 {
+  font-size: 3em;
+  line-height: 1em;
 }
 /*# sourceMappingURL=fn-info.css.map */
