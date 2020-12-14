@@ -37,8 +37,10 @@ function loadContent(contentNumber) {
         let element;
         if(index == 0){
             element = document.createElement('h1');
+            element.classList.add('fadein');
         }else{
             element = document.createElement('p');
+            element.classList.add('fadeindelayed');
         }
         article.appendChild(element);
         article.appendChild(document.createElement('br'));
