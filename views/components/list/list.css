@@ -55,4 +55,11 @@
     margin-top: 4vh;
   }
 }
+
+@media screen and (max-width: 500px) {
+  #list div:first-of-type h2 {
+    font-size: 3rem;
+    line-height: 1em;
+  }
+}
 /*# sourceMappingURL=list.css.map */
