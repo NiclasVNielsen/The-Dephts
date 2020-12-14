@@ -70,9 +70,10 @@
   left: 51%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   #info-page-1 .wrapper > div {
-    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
     padding: 0 1.5em;
   }
   #info-page-1 figure {

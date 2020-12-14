@@ -86,13 +86,15 @@
           transform: translateY(-5vh);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   #image-gallery .gallery-items {
     display: none;
   }
   #image-gallery > div:nth-of-type(2) {
     position: static;
     width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
     left: 0;
   }
 }

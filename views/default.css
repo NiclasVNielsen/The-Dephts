@@ -89,7 +89,7 @@ a:active {
   color: var(--thir);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   body > section {
     height: auto;
     min-height: 100vh;

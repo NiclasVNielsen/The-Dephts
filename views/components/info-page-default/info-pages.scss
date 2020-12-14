@@ -41,10 +41,11 @@
     background: linear-gradient(var(--four) 80%, var(--fift));
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     #info-page-2, #info-page-3, #info-page-4{
         .wrapper > div{
-            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
             padding: 0 1.5em;
         }
         figure{
