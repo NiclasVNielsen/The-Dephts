@@ -1,0 +1,45 @@
+#list{
+    display: flex;
+    align-items: center;
+    div{
+        &:first-of-type{
+            width: 41.666%;
+            margin: 0 8.333%;
+            line-height: 5em;
+        }
+        &:last-of-type{
+            width: 33.333%;
+            display: flex;
+            flex-wrap: wrap;
+            > figure{
+                width: 50%;
+                padding: 1.5%;
+                img{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #list{
+        flex-direction: column;
+        div{
+            padding: 0 1.5rem;
+            &:first-of-type{
+                width: 100%;
+                margin: 0;
+                padding-top: 15vh;
+                h2{
+                    font-size: 4rem;
+                    line-height: 1em;
+                }
+            }
+            &:last-of-type{
+                width: 100%;
+                margin-top: 4vh;
+            }
+        } 
+    }
+}

@@ -1,0 +1,98 @@
+:root {
+  --prim: #7CC8C8;
+  --seco: #4BBBBF;
+  --thir: #007381;
+  --four: #014559;
+  --fift: #07354A;
+  --whit: #FFFFFF;
+  --time: 1.0s;
+  --delay: 1.2s;
+}
+
+/* Default settings */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.html {
+  -ms-scroll-snap-type: y proximity;
+      scroll-snap-type: y proximity;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}
+
+body > section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Fonts imports */
+@font-face {
+  font-family: 'Seasalt';
+  src: url("../materials/fonts/Seasalt.ttf");
+}
+
+@font-face {
+  font-family: 'CasMono';
+  src: url("../materials/fonts/CascadiaMono.ttf");
+}
+
+/* Fonts settings */
+body {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--four);
+}
+
+h1, h2 {
+  font-family: 'Seasalt', sans-serif;
+  font-size: 6em;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'CasMono', sans-serif;
+  font-size: 2em;
+  margin-bottom: .3em;
+}
+
+p {
+  line-height: 1.25em;
+}
+
+a {
+  color: var(--seco);
+}
+
+a:hover {
+  color: var(--prim);
+}
+
+a:active {
+  color: var(--thir);
+}
+
+@media screen and (max-width: 1000px) {
+  body > section {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+/*# sourceMappingURL=default.css.map */

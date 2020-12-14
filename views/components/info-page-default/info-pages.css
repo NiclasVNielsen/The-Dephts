@@ -1,0 +1,75 @@
+#info-page-2, #info-page-3, #info-page-4 {
+  background: var(--fift);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#info-page-2 > .wrapper, #info-page-3 > .wrapper, #info-page-4 > .wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#info-page-2 > .wrapper > figure, #info-page-2 > .wrapper > div, #info-page-3 > .wrapper > figure, #info-page-3 > .wrapper > div, #info-page-4 > .wrapper > figure, #info-page-4 > .wrapper > div {
+  width: 50%;
+}
+
+#info-page-2 > .wrapper > figure, #info-page-3 > .wrapper > figure, #info-page-4 > .wrapper > figure {
+  height: 40vh;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+
+#info-page-2 > .wrapper > figure > img, #info-page-3 > .wrapper > figure > img, #info-page-4 > .wrapper > figure > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#info-page-2 > .wrapper > div, #info-page-3 > .wrapper > div, #info-page-4 > .wrapper > div {
+  color: var(--seco);
+  padding: 0 100px;
+}
+
+#info-page-2 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, var(--thir)), to(var(--four)));
+  background: linear-gradient(var(--thir) 80%, var(--four));
+}
+
+#info-page-2 h4, #info-page-2 p {
+  color: var(--whit);
+  text-shadow: 0px 0px 0.6em var(--seco);
+}
+
+#info-page-3 {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, var(--four)), to(var(--fift)));
+  background: linear-gradient(var(--four) 80%, var(--fift));
+}
+
+@media screen and (max-width: 1000px) {
+  #info-page-2 .wrapper > div, #info-page-3 .wrapper > div, #info-page-4 .wrapper > div {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+  }
+  #info-page-2 figure, #info-page-3 figure, #info-page-4 figure {
+    display: none;
+  }
+}
+/*# sourceMappingURL=info-pages.css.map */

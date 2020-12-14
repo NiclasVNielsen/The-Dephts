@@ -1,0 +1,122 @@
+.fadein {
+  -webkit-animation: var(--time) fadein ease-out forwards;
+          animation: var(--time) fadein ease-out forwards;
+  position: relative;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+    top: -12px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    top: -12px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+.fadeout {
+  -webkit-animation: var(--time) fadeout forwards;
+          animation: var(--time) fadeout forwards;
+}
+
+@-webkit-keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeindelayed {
+  -webkit-animation: var(--delay) fadeindelayed forwards;
+          animation: var(--delay) fadeindelayed forwards;
+  position: relative;
+}
+
+@-webkit-keyframes fadeindelayed {
+  0% {
+    opacity: 0;
+    top: 10px;
+  }
+  40% {
+    opacity: 0;
+    top: 10px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+@keyframes fadeindelayed {
+  0% {
+    opacity: 0;
+    top: 10px;
+  }
+  40% {
+    opacity: 0;
+    top: 10px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+.fadeoutdelayed {
+  -webkit-animation: var(--delay) fadeoutdelayed forwards;
+          animation: var(--delay) fadeoutdelayed forwards;
+}
+
+@-webkit-keyframes fadeoutdelayed {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeoutdelayed {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=animations.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,WAAW;CAKxB;;AAPH,AAGI,MAHE,CAGF,EAAE,EAHN,MAAM,CAGE,CAAC,CAAA;EACD,KAAK,EAAE,WAAW;EAClB,WAAW,EAAE,GAAG,CAAC,GAAG,CAAC,KAAI,CAAC,WAAW;CACxC",
+    "sources": [
+        "extention.scss"
+    ],
+    "names": [],
+    "file": "extention.css"
+}
