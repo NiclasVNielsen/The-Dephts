@@ -40,3 +40,15 @@
 #info-page-3{
     background: linear-gradient(var(--four) 80%, var(--fift));
 }
+
+@media screen and (max-width: 600px) {
+    #info-page-2, #info-page-3, #info-page-4{
+        .wrapper > div{
+            width: 100%;
+            padding: 0 1.5em;
+        }
+        figure{
+            display: none;
+        }
+    }
+}

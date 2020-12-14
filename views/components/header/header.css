@@ -52,4 +52,19 @@ header nav a:hover {
 header nav a:active {
   background: var(--fift);
 }
+
+@media screen and (max-width: 600px) {
+  header figure {
+    display: none;
+  }
+  header nav {
+    width: 100%;
+    text-align: center;
+  }
+  header nav a {
+    border-radius: 0;
+    border-left: none;
+    padding: 2em;
+  }
+}
 /*# sourceMappingURL=header.css.map */

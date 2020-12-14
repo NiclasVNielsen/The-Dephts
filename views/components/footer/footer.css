@@ -27,4 +27,21 @@ footer > div > figure {
   border-radius: 10px;
   padding: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  footer {
+    display: block;
+  }
+  footer > div {
+    margin: 0 auto;
+  }
+  footer > div:first-of-type {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer > div:first-of-type h6 {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=footer.css.map */

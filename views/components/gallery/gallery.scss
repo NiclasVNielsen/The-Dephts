@@ -66,3 +66,17 @@
         }
     }
 }
+
+
+@media screen and (max-width: 600px) {
+    #image-gallery{
+        .gallery-items{
+            display: none;
+        }
+        > div:nth-of-type(2){
+            position: static;
+            width: 100%;
+            left: 0;
+        }
+    }
+}

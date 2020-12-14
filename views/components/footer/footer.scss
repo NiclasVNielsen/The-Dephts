@@ -18,3 +18,18 @@ footer{
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    footer{
+        display: block;
+        > div{
+            margin: 0 auto;
+            &:first-of-type{
+                h6{
+                    text-align: center;
+                }
+                justify-content: center;
+            }
+        }
+    }
+}
