@@ -30,4 +30,29 @@
 #list div:last-of-type > figure img {
   display: block;
 }
+
+@media screen and (max-width: 600px) {
+  #list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #list div {
+    padding: 0 1.5rem;
+  }
+  #list div:first-of-type {
+    width: 100%;
+    margin: 0;
+    padding-top: 15vh;
+  }
+  #list div:first-of-type h2 {
+    font-size: 4rem;
+    line-height: 1em;
+  }
+  #list div:last-of-type {
+    width: 100%;
+    margin-top: 4vh;
+  }
+}
 /*# sourceMappingURL=list.css.map */

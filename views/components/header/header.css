@@ -54,8 +54,11 @@ header nav a:active {
 }
 
 @media screen and (max-width: 600px) {
-  header figure {
+  header .front-page-icon {
     display: none;
+  }
+  header figure {
+    float: right;
   }
   header nav {
     width: 100%;

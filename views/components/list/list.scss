@@ -21,3 +21,25 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    #list{
+        flex-direction: column;
+        div{
+            padding: 0 1.5rem;
+            &:first-of-type{
+                width: 100%;
+                margin: 0;
+                padding-top: 15vh;
+                h2{
+                    font-size: 4rem;
+                    line-height: 1em;
+                }
+            }
+            &:last-of-type{
+                width: 100%;
+                margin-top: 4vh;
+            }
+        } 
+    }
+}

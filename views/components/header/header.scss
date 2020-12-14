@@ -46,8 +46,11 @@ header{
 
 @media screen and (max-width: 600px) {
     header{
-        figure{
+        .front-page-icon{
             display: none;
+        }
+        figure{
+            float: right;
         }
         nav{
             width: 100%;

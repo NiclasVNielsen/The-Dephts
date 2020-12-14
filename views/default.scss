@@ -73,3 +73,13 @@ body{
         color: var(--thir);
     }
 }
+
+
+@media screen and (max-width: 600px) {
+    body{
+        > section{
+            height: auto;
+            min-height: 100vh;
+        } 
+    }
+}
