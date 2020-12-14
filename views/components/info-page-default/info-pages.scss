@@ -53,3 +53,13 @@
         }
     }
 }
+
+@media screen and (max-width: 500px) {
+    #info-page-2, #info-page-3, #info-page-4{
+        .wrapper > div{
+            width: 100%;
+            margin: 0;
+            max-width: none;
+        }
+    }
+}

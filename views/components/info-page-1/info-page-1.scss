@@ -54,11 +54,21 @@
     #info-page-1{
         .wrapper > div{
             max-width: 400px;
+            width: 100%;
             margin: 0 auto;
             padding: 0 1.5em;
         }
         figure{
             display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #info-page-1{
+        .wrapper > div{
+            margin: 0;
+            max-width: none;
         }
     }
 }

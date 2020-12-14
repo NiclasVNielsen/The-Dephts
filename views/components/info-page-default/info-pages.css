@@ -72,4 +72,12 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 500px) {
+  #info-page-2 .wrapper > div, #info-page-3 .wrapper > div, #info-page-4 .wrapper > div {
+    width: 100%;
+    margin: 0;
+    max-width: none;
+  }
+}
 /*# sourceMappingURL=info-pages.css.map */
