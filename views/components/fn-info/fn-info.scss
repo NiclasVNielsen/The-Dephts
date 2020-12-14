@@ -11,3 +11,9 @@
         line-height: 1em;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .specificTopic{
+        display: none;
+    }
+}

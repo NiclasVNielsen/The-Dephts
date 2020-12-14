@@ -12,4 +12,10 @@
   font-size: 3em;
   line-height: 1em;
 }
+
+@media screen and (max-width: 600px) {
+  .specificTopic {
+    display: none;
+  }
+}
 /*# sourceMappingURL=fn-info.css.map */
